@@ -1,0 +1,100 @@
+body{
+    /*color: red;*/ 
+    /*border: 2px dashed gold; */
+    background-color: lightgrey; 
+    margin: 0;
+    
+}
+
+p{
+    margin-bottom: 12px;
+}
+
+box{
+    display: block;
+}/*turns the bastard into the king of the north*/
+
+*[greedy]{
+    display: block; 
+}
+
+box[humble]{
+    display: inline-block; 
+}
+
+*{
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/*end boilerplate*/ 
+
+.header{
+    background-color: black;
+    background-image: url(http://thepatternlibrary.com/img/ae.jpg);
+
+    text-align: center;
+    color: white;
+
+    margin: 20px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 35px; 
+}
+
+.subtitle{ 
+    font-family: Courier New, Courier, monospace;
+}
+
+.subtext{
+    margin-top: 5px;
+}
+
+.about-link{
+    color: gray; 
+    text-decoration: none;
+}
+
+.about-link:hover{
+    color: red; 
+}
+
+.body{
+    margin: 20px; 
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+.chapter{
+    font-family: 'Roboto Condensed', sans-serif;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.chapter-title{
+    background-color: black;
+    
+    color: white;
+    font-family: Courier New, Courier, monospace;
+
+    padding: 5px;
+}
+
+.chapter-body{
+    padding-top: 10px; 
+}
+
+.chapter-image-frame{
+    padding-top: 10px; 
+}
+
+.chapter-image{
+
+}
